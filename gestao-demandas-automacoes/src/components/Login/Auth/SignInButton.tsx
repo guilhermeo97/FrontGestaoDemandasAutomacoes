@@ -4,7 +4,7 @@ import { loginRequest } from "../../../authConfig";
 
 export const SignInButton = () => {
   const { instance } = useMsal();
-  const imagem = '/logo_microsoft.png'; // Certifique-se de que o caminho para a logo está correto.
+  const imagem = '/logo_microsoft.png';
   
   const handleLogin = () => {
     instance.loginPopup(loginRequest).catch(e => {

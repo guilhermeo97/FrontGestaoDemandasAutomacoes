@@ -5,7 +5,7 @@ export const Layout = ({ children}: any) => {
     return(
         <>
         <Header/>
-        { children }
+            { children }
         <Footer/>
         </>
     )
